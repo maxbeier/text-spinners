@@ -1,6 +1,6 @@
 # [text-spinners](http://tawian.io/text-spinners/)
 
-Pure text, CSS only, font independent, inline loading indicators. Based on [cli-spinners](https://github.com/sindresorhus/cli-spinners) and [hack](https://github.com/egoist/hack).
+Pure text, CSS only, font independent, inline loading indicators. Part of [tawian-frontend](https://github.com/tawian/tawian-frontend). Based on [cli-spinners](https://github.com/sindresorhus/cli-spinners) and [hack](https://github.com/egoist/hack).
 
 
 ## Usage
