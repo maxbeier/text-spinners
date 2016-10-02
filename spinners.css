@@ -167,6 +167,12 @@
   width: 1.3em;
 }
 
+.loading.runner::after {
+  content: "🚶\A🏃";
+  animation: spin2 1s steps(2) infinite;
+  width: 1.3em;
+}
+
 .loading.words::after {
   content: "Loading\A Still loading\A Mostly done\A A bit more \A Almost done\A Ready-ish";
   animation: spin6 12s steps(6) infinite;
