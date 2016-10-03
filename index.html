@@ -28,9 +28,11 @@
             This project tries to mimic command line spinners like those from <a href="https://github.com/sindresorhus/cli-spinners" title="cli-spinners">cli-spinners</a> (where most of them are taken from) and bring them to the web. This is part of the <a href="https://github.com/tawian/tawian-frontend" title="tawian-frontend">tawian-frontend</a> which is based on <a href="https://github.com/egoist/hack" title="hack">hack</a>. Thanks to cli-spinners and hack!
          </p>
 
-         <h2>Stylesheet</h2>
+         <h2>Usage</h2>
 
          <pre class="highlight"><code><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">href</span><span class="o">=</span><span class="s">"http://tawian.io/text-spinners/spinners.css"</span><span class="p">&gt;</span></code></pre>
+
+         <p>For better accessibility with screen readers add <code>aria-hidden="true"</code> or <code>aria-label="Loading"</code> to the loading element.</p>
 
          <h2>Types</h2>
 
@@ -48,10 +50,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading"></span>
+               <span class="loading" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading<span class="loading"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading<span class="loading" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -62,10 +64,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading dots"></span>
+               <span class="loading dots" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading dots"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading dots" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading dots"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -76,10 +78,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading dots2"></span>
+               <span class="loading dots2" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading dots2"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading dots2" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading dots2"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -90,10 +92,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading dots3"></span>
+               <span class="loading dots3" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading dots3"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading dots3" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading dots3"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -104,10 +106,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading line"></span>
+               <span class="loading line" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading line"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading line" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading line"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -118,10 +120,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading line2"></span>
+               <span class="loading line2" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading line2"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading line2" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading line2"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -132,10 +134,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading plus"></span>
+               <span class="loading plus" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading plus"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading plus" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading plus"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -146,10 +148,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading lifting"></span>
+               <span class="loading lifting" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading lifting"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading lifting" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading lifting"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -160,10 +162,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading hamburger"></span>
+               <span class="loading hamburger" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading hamburger"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading hamburger" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading hamburger"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -174,10 +176,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading bar"></span>
+               <span class="loading bar" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading bar"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading bar" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading bar"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -188,10 +190,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading bar2"></span>
+               <span class="loading bar2" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading bar2"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading bar2" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading bar2"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -202,10 +204,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading circle"></span>
+               <span class="loading circle" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading circle"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading circle" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading circle"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -216,10 +218,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading open-circle"></span>
+               <span class="loading open-circle" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading open-circle"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading open-circle" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading open-circle"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -230,10 +232,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading arrow"></span>
+               <span class="loading arrow" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading arrow"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading arrow" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading arrow"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -244,10 +246,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading triangle"></span>
+               <span class="loading triangle" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading triangle"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading triangle" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading triangle"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -258,10 +260,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading triangles"></span>
+               <span class="loading triangles" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading triangles"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading triangles" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading triangles"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -272,10 +274,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading beam"></span>
+               <span class="loading beam" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading beam"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading beam" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading beam"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -286,10 +288,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading bullet"></span>
+               <span class="loading bullet" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading bullet"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading bullet" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading bullet"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -300,10 +302,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading bullseye"></span>
+               <span class="loading bullseye" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading bullseye"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading bullseye" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading bullseye"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -314,10 +316,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading rhomb"></span>
+               <span class="loading rhomb" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading rhomb"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading rhomb" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading rhomb"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -328,10 +330,10 @@
 
          <div class="grid">
             <div class="cell cell-4 example">
-               <span class="loading fish"></span>
+               <span class="loading fish" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost"><span class="loading fish"></span></button>
+               <button class="btn btn-primary btn-ghost"><span class="loading fish" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-5">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading fish"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -342,10 +344,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading toggle"></span>
+               <span class="loading toggle" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading toggle"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading toggle" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading toggle"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -356,10 +358,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading countdown"></span>
+               <span class="loading countdown" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Waiting <span class="loading countdown"></span> seconds</button>
+               <button class="btn btn-primary btn-ghost">Waiting <span class="loading countdown" aria-hidden="true"></span> seconds</button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading countdown"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -370,10 +372,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading time"></span>
+               <span class="loading time" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading time"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading time" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading time"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -384,10 +386,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading hearts"></span>
+               <span class="loading hearts" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading hearts"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading hearts" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading hearts"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -398,10 +400,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading earth"></span>
+               <span class="loading earth" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading earth"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading earth" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading earth"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -412,10 +414,10 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading moon"></span>
+               <span class="loading moon" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading moon"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading moon" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading moon"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -426,24 +428,24 @@
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading monkey"></span>
+               <span class="loading monkey" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading monkey"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading monkey" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading monkey"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
             </div>
          </div>
-         
+
          <h3>Runner</h3>
 
          <div class="grid">
             <div class="cell cell-3 example">
-               <span class="loading runner"></span>
+               <span class="loading runner" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost">Loading <span class="loading runner"></span></button>
+               <button class="btn btn-primary btn-ghost">Loading <span class="loading runner" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-6">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading runner"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
@@ -454,10 +456,10 @@
 
          <div class="grid">
             <div class="cell cell-4 example">
-               <span class="loading words"></span>
+               <span class="loading words" aria-hidden="true"></span>
             </div>
             <div class="cell cell-3">
-               <button class="btn btn-primary btn-ghost"><span class="loading words"></span></button>
+               <button class="btn btn-primary btn-ghost"><span class="loading words" aria-hidden="true"></span></button>
             </div>
             <div class="cell cell-5">
                <pre class="highlight"><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"loading words"</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span></code></pre>
