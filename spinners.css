@@ -162,8 +162,8 @@
 }
 
 .loading.monkey::after {
-  content: "🙈\A🙈\A🙉\A🙊";
-  animation: spin4 2s steps(4) infinite;
+  content: "🙈\A🙉\A🙊";
+  animation: spin3 1.5s steps(3) infinite;
   width: 1.3em;
 }
 
