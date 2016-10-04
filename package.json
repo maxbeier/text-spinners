@@ -1,0 +1,20 @@
+{
+  "name": "text-spinners",
+  "version": "1.0.1",
+  "description": "Pure text, CSS only, font independent, inline loading indicators",
+  "main": "spinners.css",
+  "style": "spinners.css",
+  "files": [
+    "LICENSE",
+    "spinners.css"
+  ],
+  "repository": "tawian/text-spinners",
+  "author": "Maximilian Beier",
+  "license": "MIT",
+  "keywords": [
+    "loading indicators",
+    "spinners"
+  ],
+  "bugs": "https://github.com/tawian/text-spinners/issues",
+  "homepage": "http://tawian.io/text-spinners/"
+}

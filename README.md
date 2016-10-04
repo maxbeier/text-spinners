@@ -11,6 +11,12 @@ Pure text, CSS only, font independent, inline loading indicators. Part of [tawia
 <button>Loading <span class="loading"></span></button>
 ```
 
+or
+
+```sh
+npm install --save text-spinners
+```
+
 
 ## Preview
 
