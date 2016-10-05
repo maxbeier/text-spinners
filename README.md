@@ -21,3 +21,15 @@ npm install --save text-spinners
 ## Preview
 
 [![Preview](http://tawian.io/text-spinners/spinners.gif)](http://tawian.io/text-spinners/)
+
+
+## Tested on
+
+* Chrome 53
+* Firefox 49
+* Internet Explorer 11
+* Safari 10
+* iOS 9 Safari
+* Android Chrome 53
+
+If you have access to other browsers or earlier versions, please open an issue.
