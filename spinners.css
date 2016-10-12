@@ -173,6 +173,16 @@
   width: 1.3em;
 }
 
+.loading.box-bounce::after {
+  content:"▖\A▘\A▝\A▗";
+  animation: spin4 1s steps(4) infinite;
+}
+
+.loading.star::after {
+  content:"✶\A✸\A✹\A✺\A✹\A✷";
+  animation: spin6 1s steps(6) infinite;
+}
+
 .loading.words::after {
   content: "Loading\A Still loading\A Mostly done\A A bit more \A Almost done\A Ready-ish";
   animation: spin6 12s steps(6) infinite;
