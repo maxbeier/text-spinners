@@ -28,6 +28,7 @@ npm install --save text-spinners
 * Chrome 53
 * Firefox 49
 * Internet Explorer 11
+* Edge 25
 * Safari 10
 * iOS 9 Safari
 * Android Chrome 53
