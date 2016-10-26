@@ -1,6 +1,6 @@
 {
   "name": "text-spinners",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pure text, CSS only, font independent, inline loading indicators",
   "main": "spinners.css",
   "style": "spinners.css",
