@@ -6,7 +6,8 @@
   "style": "spinners.css",
   "files": [
     "LICENSE",
-    "spinners.css"
+    "spinners.css",
+    "spinners.scss"
   ],
   "repository": "tawian/text-spinners",
   "author": "Maximilian Beier",
