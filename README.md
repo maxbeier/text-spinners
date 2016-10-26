@@ -1,4 +1,4 @@
-# [text-spinners](http://tawian.io/text-spinners/)
+# [text-spinners](http://tawian.io/text-spinners/) [![npm package][npm-badge]][npm]
 
 Pure text, CSS only, font independent, inline loading indicators. Part of [tawian-frontend](https://github.com/tawian/tawian-frontend). Thanks to [cli-spinners](https://github.com/sindresorhus/cli-spinners) and [hack](https://github.com/egoist/hack)!
 
@@ -34,3 +34,7 @@ npm install --save text-spinners
 * Android Chrome 53
 
 If you have access to other browsers or earlier versions, please open an issue.
+
+
+[npm-badge]: https://img.shields.io/npm/v/text-spinners.svg?style=flat-square
+[npm]: https://www.npmjs.org/package/text-spinners
