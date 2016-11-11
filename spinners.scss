@@ -183,6 +183,16 @@
   animation: spin6 1s steps(6) infinite;
 }
 
+.loading.matrix::after {
+  content:"░ ░░░░\A░░ ░░░\A░░░ ░░\A░░░░ ░";
+  animation: spin4 .5s steps(4) infinite alternate;
+}
+
+.loading.square::after {
+  content: "◰\A◳\A◲\A◱";
+  animation: spin4 1s steps(4) infinite;
+}
+
 .loading.words::after {
   content: "Loading\A Still loading\A Mostly done\A A bit more \A Almost done\A Ready-ish";
   animation: spin6 12s steps(6) infinite;
