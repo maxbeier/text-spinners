@@ -17,5 +17,8 @@
     "spinners"
   ],
   "bugs": "https://github.com/tawian/text-spinners/issues",
-  "homepage": "http://tawian.io/text-spinners/"
+  "homepage": "http://tawian.io/text-spinners/",
+  "scripts": {
+    "version": "cp spinners.css spinners.scss; git add spinners.scss"
+  }
 }
