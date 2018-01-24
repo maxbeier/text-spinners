@@ -9,15 +9,15 @@
     "spinners.css",
     "spinners.scss"
   ],
-  "repository": "tawian/text-spinners",
+  "repository": "maxbeier/text-spinners",
   "author": "Maximilian Beier",
   "license": "MIT",
   "keywords": [
     "loading indicators",
     "spinners"
   ],
-  "bugs": "https://github.com/tawian/text-spinners/issues",
-  "homepage": "http://tawian.io/text-spinners/",
+  "bugs": "https://github.com/maxbeier/text-spinners/issues",
+  "homepage": "https://maxbeier.github.io/text-spinners/",
   "scripts": {
     "version": "cp spinners.css spinners.scss; git add spinners.scss"
   }
